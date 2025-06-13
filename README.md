@@ -11,7 +11,6 @@ This is a console-based Spring Framework application designed to manage and sugg
 * Eclipse IDE
 * Git
 
-
 # Features
 1. Add New Recipe:   Add recipe details such as name, ingredients, process, duration, and date.
 
@@ -23,7 +22,7 @@ This is a console-based Spring Framework application designed to manage and sugg
 
 5. Suggest Recipes: Suggest recipes based on the available ingredients entered by the user. 
    Uses a similarity matching algorithm to compare input ingredients with stored recipes and suggest the best matches.
-
+```
 # Project Structure
 org.techhub.recipe
 │
@@ -31,8 +30,8 @@ org.techhub.recipe
 ├── service             // RecipeService interface and its implementation
 ├── model               // POJO class: RecipeModel
 ├── config              // Spring Java-based configuration
-
-
+```
+```
 # Sample Input
 
 Enter recipe details(name,ingredients,process,duration,date):
@@ -41,7 +40,9 @@ Enter recipe details(name,ingredients,process,duration,date):
 > boil water,add noodles,cook for 2 minutes
 > 5
 > 2025-06-12
-
+```
+```
 # Author
 Sonal Pardeshi
 Java Full Stack Developer | Passionate about coding and building real-time apps
+```
